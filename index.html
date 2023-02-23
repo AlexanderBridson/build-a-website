@@ -8,10 +8,6 @@
 </head>
 <body>
 
-  <ul>
-    <li><a href="#aboutthepodcast">Nav</a></li>
-    <li><a href="#featuredepisodes">Main</a></li>
-  </ul>
 
   <!-- Include the tag for introductory content -->
   <header role="banner">
@@ -20,7 +16,7 @@
     <a href="index.html"><img src="images/sysk-logo.webp" alt="Sysk logo with red backround that says Stuff You Should Know Podcast"></a>
 
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-    <nav id="aboutthepodcast" role="navigation">
+    <nav role="navigation">
       <ul>
         <li><a href="about.html">About</a></li>
         <li><a href="episodes/episodes.html">Episodes</a></li>
@@ -30,7 +26,7 @@
 
 
   <!-- Add an element that represents the main content of the page --> 
-  <main id="featuredepisodes" role="main">
+  <main  role="main">
 
     <!-- Main heading for the page -->
     <h1>Stuff You Should Know Podcast</h1>
@@ -52,7 +48,7 @@
       </ul>
       
       <!-- Link to about.html -->
-      <a href="about.html">Read more about the show and hosts</a>
+      <a href="about.html" aria-label="Read more about Josh and Chuck and their show Stuff You Should Know">Read more about the show and hosts</a>
     </section>
 
       
@@ -62,15 +58,16 @@
         <!-- Section heading -->
         <h2>Featured Episodes</h2>
 
-        <!-- Include a tag for independent, self-contained content content -->
+        <!-- Include a tag for independent, self-contained content -->
         <article>
 
           <!-- Section sub-heading -->
-          <h3>Interesting Origins of Everday Phrases</h3>
+          <h3>Interesting Origins of Everyday Phrases</h3>
 
           <!-- Display image relevant to topic -->
-          <img src="images/everyday-phrases.jpeg" alt="Picture of a bunch of magnets with words on them">
+          <img src="images/everyday-phrases.jpeg" alt="Picture of muultiple magnets with words on them">
           <p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
+
           <!-- Link to existing html page within episodes directory; relevant to topic -->
           <a href="episodes/everyday-phrases.html" aria-label="Learn more about everyday phrases and where they originated">Learn more</a>
         </article>
@@ -83,7 +80,7 @@
           <h3>The History of Fake Towns</h3>
 
           <!-- Display image relevant to topic -->
-          <img src="images/fake-towns.jpeg" alt="A woman is standing in a so called fake town with a street sign that says Synthetic Street and Burlap Boulevard">
+          <img src="images/fake-towns.jpeg" alt="A woman is standing in a fake town with a street sign that says Synthetic Street and Burlap Boulevard">
           <p>There have been a lot of fake towns built throughout history for a lot of different reasons, like this idyllic suburb Boeing built in the 40s to hide production of their B-17 Bombers! Learn all about these bogus burbs.</p>
           
           <!-- Link to existing html page within episodes directory; relevant to topic -->
@@ -98,7 +95,7 @@
           <h3>Doppelgängers: Hey you, you're me!</h3>
 
           <!-- Display image relevant to topic -->
-          <img src="images/doppelgangers.jpeg" alt="Silhouette of two men facing in front fo each other">
+          <img src="images/doppelgangers.jpeg" alt="Silhouette of two doppelganger men facing in front fo each other">
           <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
 
           <!-- Link to existing html page within episodes directory; relevant to topic -->
